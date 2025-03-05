@@ -5,6 +5,10 @@
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
+@theme {
+  --color-primary-color: #e91e63;
+  --color-primary-contrast: #ffffff;
+}
 
 /* .loadingLogo */
 /* make a keyframe for zoom 0.5 to 1 */
@@ -18,4 +22,14 @@
   100% {
     transform: scale(1);
   }
+}
+button {
+  cursor: pointer;
+}
+
+.btn {
+  @apply bg-primary-color w-fit flex flex-row justify-center items-center gap-2 text-white py-3 font-medium px-5 rounded-md;
+}
+.btn-outline {
+  @apply border border-primary-color bg-white text-primary-color;
 }

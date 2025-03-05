@@ -1,3 +1,4 @@
+import Share from "@/components/Share";
 import Image from "next/image";
 import Link from "next/link";
 import { IoCall } from "react-icons/io5";
@@ -67,11 +68,9 @@ export default function Home() {
         </ul>
       </div>
       {/* save contact */}
-      <div className="w-full pb-10 flex flex-col justify-center items-center space-y-4 p-4">
-        <Link
-          href="/vcard_hervé_sanchez.vcf"
-          className="flex flex-row w-fit justify-center items-center gap-3 border border-[#e91e63] p-3 rounded-lg px-5 group transition-all duration-300 text-white bg-[#e91e63] hover:bg-[#455a64] hover:border-[#455a64]"
-        >
+      <div className="w-full pb-10 flex flex-row justify-center items-center gap-5 p-4 px-7">
+        <Share />
+        <Link href="/vcard_hervé_sanchez.vcf" className="btn">
           <RiUserAddFill />
           Télécharger vCard
         </Link>
