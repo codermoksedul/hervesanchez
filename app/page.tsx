@@ -43,7 +43,9 @@ export default function Home() {
           <p className="text-lg mt-2 font-medium text-gray-800">
             Hervé&apos; Shooting Course
           </p>
-          <p>Moniteur de tir professionnel Entraineur fédéral</p>
+          <p className="mt-2 text-[15px]">
+            Moniteur de tir professionnel <br /> Entraineur fédéral
+          </p>
         </div>
       </div>
       {/* call to action */}
