@@ -41,7 +41,7 @@ export default function Home() {
         <div className="text-center">
           <h1 className="text-2xl font-bold">Hervé SANCHEZ</h1>
           <p className="text-lg mt-2 font-medium text-gray-800">
-            Hervé' Shooting Class
+            Hervé&apos; Shooting Class
           </p>
           <p className="mt-2 text-[15px]">
             Moniteur de tir professionnel <br /> Entraineur fédéral
